@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../../dist/css/tailwind.css">
+    <title>E-commerce Website - Products</title>
+</head>
+
+<body class="font-roboto">
+    <!-- header  -->
+    <div class="flex items-center justify-between px-4 py-6 max-w-6xl mx-auto">
+        <p class="text-sm capitalize font-medium">my online store</p>
+        <div class="flex items-center gap-4">
+            <a href="#" class="flex items-center gap-1">
+                <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 256 256">
+                    <path fill="currentColor"
+                        d="M178 40c-20.65 0-38.73 8.88-50 23.89C116.73 48.88 98.65 40 78 40a62.07 62.07 0 0 0-62 62c0 70 103.79 126.66 108.21 129a8 8 0 0 0 7.58 0C136.21 228.66 240 172 240 102a62.07 62.07 0 0 0-62-62m-50 174.8c-18.26-10.64-96-59.11-96-112.8a46.06 46.06 0 0 1 46-46c19.45 0 35.78 10.36 42.6 27a8 8 0 0 0 14.8 0c6.82-16.67 23.15-27 42.6-27a46.06 46.06 0 0 1 46 46c0 53.61-77.76 102.15-96 112.8" />
+                </svg>
+                <span class="text-sm font-medium">3</span>
+            </a>
+            <a href="#" class="flex items-center gap-1">
+                <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24">
+                    <g fill="none" stroke="currentColor" stroke-width="1.5">
+                        <path
+                            d="M3.742 20.555C4.942 22 7.174 22 11.64 22h.72c4.466 0 6.699 0 7.899-1.445m-16.517 0c-1.2-1.446-.788-3.64.035-8.03c.585-3.12.877-4.681 1.988-5.603M3.742 20.555Zm16.517 0c1.2-1.446.788-3.64-.035-8.03c-.585-3.12-.878-4.681-1.989-5.603m2.024 13.633ZM18.235 6.922C17.125 6 15.536 6 12.361 6h-.722c-3.175 0-4.763 0-5.874.922m12.47 0Zm-12.47 0Z" />
+                        <path stroke-linecap="round" d="M9 6V5a3 3 0 1 1 6 0v1" />
+                    </g>
+                </svg>
+                <span class="text-sm font-medium">2</span>
+            </a>
+        </div>
+    </div>
+    <!-- breadcrumb -->
+    <div class="bg-black">
+        <ul class="flex items-center gap-3 py-2.5 px-4 max-w-6xl mx-auto">
+            <li><a href="#" class="text-sm font-medium capitalize text-white">home</a></li>
+            <li><span class="text-sm font-medium  text-white">/</span></li>
+            <li><a href="./products.html" class="text-sm font-medium capitalize text-white">shoes</a></li>
+            <li><span class="text-sm font-medium  text-white">/</span></li>
+            <li><a href="./product-view.html" class="text-sm font-medium capitalize text-white">men's causal shoe</a>
+            </li>
+        </ul>
+    </div>
+    <!-- content wraper -->
+    <div class="max-w-6xl mx-auto px-4 mt-9">
+        <!-- grid gallry & info  -->
+        <div class="md:grid md:grid-cols-2 md:gap-8">
+            <!-- product gallery  -->
+            <div class="sm:flex sm:gap-2 sm:justify-between md:items-start">
+                <!-- thumbnails -->
+                <div class="hidden sm:flex sm:flex-col sm:gap-2.5 sm:shrink-0">
+                    <img src="../../dist/img/view-white-ice-skates-with-cherries.jpg" alt="" class="rounded-sm w-20 border-2 border-black
+        hover:cursor-pointer hover:border-2 hover:border-black">
+                    <img src="../../dist/img/view-white-ice-skates-with-cherries.jpg" alt="" class="rounded-sm w-20 
+        hover:cursor-pointer hover:border-2 hover:border-black">
+                    <img src="../../dist/img/view-white-ice-skates-with-cherries.jpg" alt="" class="rounded-sm w-20 
+        hover:cursor-pointer hover:border-2 hover:border-black">
+                    <img src="../../dist/img/view-white-ice-skates-with-cherries.jpg" alt="" class="rounded-sm w-20 
+        hover:cursor-pointer hover:border-2 hover:border-black">
+                </div>
+                <img src="../../dist/img/view-white-ice-skates-with-cherries.jpg" alt=""
+                    class="rounded-sm sm:overflow-x-hidden">
+                <div class="flex justify-center gap-1 mt-4 sm:hidden">
+                    <div class="w-2.5 h-2.5 rounded-full bg-neutral-300"></div>
+                    <div class="w-2.5 h-2.5 rounded-full bg-neutral-300"></div>
+                    <div class="w-2.5 h-2.5 rounded-full bg-neutral-300"></div>
+                    <div class="w-2.5 h-2.5 rounded-full bg-black"></div>
+                </div>
+            </div>
+            <!-- info  -->
+            <div class="mt-4 md:mt-0">
+                <div class="flex items-center justify-between">
+                    <p class="capitalize font-medium">men's causal shoe</p>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 16 16">
+                        <path fill="currentColor"
+                            d="M13.5 1a1.5 1.5 0 1 0 0 3a1.5 1.5 0 0 0 0-3M11 2.5a2.5 2.5 0 1 1 .603 1.628l-6.718 3.12a2.5 2.5 0 0 1 0 1.504l6.718 3.12a2.5 2.5 0 1 1-.488.876l-6.718-3.12a2.5 2.5 0 1 1 0-3.256l6.718-3.12A2.5 2.5 0 0 1 11 2.5m-8.5 4a1.5 1.5 0 1 0 0 3a1.5 1.5 0 0 0 0-3m11 5.5a1.5 1.5 0 1 0 0 3a1.5 1.5 0 0 0 0-3" />
+                    </svg>
+                </div>
+                <p class="font-medium text-3xl mt-4">$50</p>
+                <p class="mt-4">Color: Black</p>
+                <div class="mt-2 flex gap-4">
+                    <a href="#" class="w-5 h-5 rounded-full bg-white border border-neutral-300"></a>
+                    <a href="#" class="w-5 h-5 rounded-full bg-fuchsia-300 border border-neutral-300"></a>
+                    <a href="#"
+                        class="w-5 h-5 rounded-full bg-black border-2 border-white outline outline-2  outline-black"></a>
+                    <a href="#" class="w-5 h-5 rounded-full bg-red-500 border border-neutral-300"></a>
+                </div>
+                <p class="mt-4">Size</p>
+                <div class="mt-2 border border-black rounded-sm px-3.5 py-2 flex items-center justify-between">
+                    <p>Select size</p>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24">
+                        <path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                            stroke-width="1.5" d="m6 9l6 6l6-6" />
+                    </svg>
+                </div>
+                <div class="mt-4">
+                    <div class="flex items-center gap-1">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24">
+                            <path fill="currentColor" d="M12 13.5a2.5 2.5 0 1 0 0-5a2.5 2.5 0 0 0 0 5" />
+                            <path fill="currentColor"
+                                d="M19.071 3.429h.001c3.905 3.905 3.905 10.237 0 14.142l-5.403 5.403a2.36 2.36 0 0 1-3.336 0l-5.375-5.375l-.028-.028c-3.905-3.905-3.905-10.237 0-14.142s10.236-3.905 14.141 0M5.99 4.489v.001a8.5 8.5 0 0 0 0 12.02l.023.024l.002.002l5.378 5.378a.86.86 0 0 0 1.214 0l5.403-5.404a8.5 8.5 0 0 0-.043-11.977A8.5 8.5 0 0 0 5.99 4.489" />
+                        </svg>
+                        <p>Ship to <span class="underline">jeddah</span></p>
+                    </div>
+                    <p class="mt-2">Delivery by: <span class="text-green-700">10 December 2024</span></p>
+                </div>
+                <div class="mt-8 flex items-center gap-4">
+                    <a href="./cart.html" class="bg-black text-center text-white uppercase font-bold py-4 rounded-sm grow">
+                        add to bag
+                    </a>
+                    <button>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="2.5rem" height="2rem" viewBox="0 0 16 16">
+                            <path fill="currentColor"
+                                d="m8 2.748l-.717-.737C5.6.281 2.514.878 1.4 3.053c-.523 1.023-.641 2.5.314 4.385c.92 1.815 2.834 3.989 6.286 6.357c3.452-2.368 5.365-4.542 6.286-6.357c.955-1.886.838-3.362.314-4.385C13.486.878 10.4.28 8.717 2.01zM8 15C-7.333 4.868 3.279-3.04 7.824 1.143q.09.083.176.171a3 3 0 0 1 .176-.17C12.72-3.042 23.333 4.867 8 15" />
+                        </svg>
+                    </button>
+                </div>
+                <div class="mt-12 flex justify-center gap-4 lg:gap-14">
+                    <div class="flex flex-col items-center gap-1">
+                        <div class="border border-black rounded-full p-2.5">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24">
+                                <path fill="currentColor"
+                                    d="M21 11c0 5.55-3.84 10.74-9 12c-5.16-1.26-9-6.45-9-12V5l9-4l9 4zm-9 10c3.75-1 7-5.46 7-9.78V6.3l-7-3.12L5 6.3v4.92C5 15.54 8.25 20 12 21m-2-4l-4-4l1.41-1.41L10 14.17l6.59-6.59L18 9" />
+                            </svg>
+                        </div>
+                        <p>100% Genuine</p>
+                    </div>
+                    <div class="flex flex-col items-center gap-1">
+                        <div class="border border-black rounded-full p-2.5">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 32 32">
+                                <path fill="currentColor"
+                                    d="M0 6v2h19v15h-6.156c-.446-1.719-1.992-3-3.844-3c-1.852 0-3.398 1.281-3.844 3H4v-5H2v7h3.156c.446 1.719 1.992 3 3.844 3c1.852 0 3.398-1.281 3.844-3h8.312c.446 1.719 1.992 3 3.844 3c1.852 0 3.398-1.281 3.844-3H32v-8.156l-.063-.157l-2-6L29.72 10H21V6zm1 4v2h9v-2zm20 2h7.281L30 17.125V23h-1.156c-.446-1.719-1.992-3-3.844-3c-1.852 0-3.398 1.281-3.844 3H21zM2 14v2h6v-2zm7 8c1.117 0 2 .883 2 2s-.883 2-2 2s-2-.883-2-2s.883-2 2-2m16 0c1.117 0 2 .883 2 2s-.883 2-2 2s-2-.883-2-2s.883-2 2-2" />
+                            </svg>
+                        </div>
+                        <p>Free shipping</p>
+                    </div>
+                    <div class="flex flex-col items-center gap-1">
+                        <div class="border border-black rounded-full p-2.5">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 256 256">
+                                <path fill="currentColor"
+                                    d="M232 184a8 8 0 0 1-16 0a88 88 0 0 0-150.22-62.22L43.4 144H88a8 8 0 0 1 0 16H24a8 8 0 0 1-8-8V88a8 8 0 0 1 16 0v44.77l22.48-22.33A104 104 0 0 1 232 184" />
+                            </svg>
+                        </div>
+                        <p>14 days return </p>
+                    </div>
+                </div>
+                <div class="mt-12">
+                    <h1 class="font-medium border-b border-neutral-300 pb-2">
+                        Description
+                    </h1>
+                    <p class="mt-4">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates tempore ratione laboriosam
+                        minima vero ipsa placeat, ea, necessitatibus praesentium aliquid saepe maiores voluptatibus, est
+                        neque omnis autem consectetur. Laudantium, repellendus!
+                    </p>
+                </div>
+            </div>
+        </div>
+        <!-- similar products  -->
+        <div class="my-14">
+            <div class="flex items-center justify-between">
+                <p class="font-bold text-xl">you may also like</p>
+                <a href="" class="flex items-center gap-1.5">
+                    <span class="capitalize text-sm font-medium">view all</span>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="2rem" height="2rem" viewBox="0 0 40 40">
+                        <path fill="currentColor"
+                            d="M24.73 28.146a.498.498 0 0 0 .36-.153l7.359-7.631a.498.498 0 0 0 0-.693l-7.391-7.662a.5.5 0 1 0-.72.693l7.056 7.315l-7.024 7.284a.5.5 0 0 0 .36.847" />
+                        <path fill="currentColor" d="M7.91 20.515h24.18a.5.5 0 0 0 0-1H7.91a.5.5 0 0 0 0 1" />
+                    </svg>
+                </a>
+            </div>
+            <div class="mt-6 grid grid-cols-2 gap-6 md:grid-cols-4">
+                <div>
+                    <div>
+                        <a href="">
+                            <img src="../../dist/img/newborn-baby-concept-with-shoes.jpg" alt="" class="rounded-sm">
+                        </a>
+                    </div>
+                    <div class="mt-7">
+                        <a href="" class="font-medium capitalize">men's casuel shoe </a>
+                        <p class="mt-2.5 font-medium">$50</p>
+                    </div>
+                </div>
+                <div>
+                    <div>
+                        <a href="">
+                            <img src="../../dist/img/view-white-ice-skates-with-cherries.jpg" alt="" class="rounded-sm">
+                        </a>
+                    </div>
+                    <div class="mt-7">
+                        <a href="" class="font-medium capitalize">men's casuel shoe </a>
+                        <p class="mt-2.5 font-medium">$50</p>
+                    </div>
+                </div>
+                <div>
+                    <div>
+                        <a href="">
+                            <img src="../../dist/img/newborn-baby-concept-with-shoes.jpg" alt="" class="rounded-sm">
+                        </a>
+                    </div>
+                    <div class="mt-7">
+                        <a href="" class="font-medium capitalize">men's casuel shoe </a>
+                        <p class="mt-2.5 font-medium">$50</p>
+                    </div>
+                </div>
+                <div>
+                    <div>
+                        <a href="">
+                            <img src="../../dist/img/view-white-ice-skates-with-cherries.jpg" alt="" class="rounded-sm">
+                        </a>
+                    </div>
+                    <div class="mt-7">
+                        <a href="" class="font-medium capitalize">men's casuel shoe </a>
+                        <p class="mt-2.5 font-medium">$50</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- border wraper  -->
+    <div class="border-t border-neutral-300">
+        <div class="max-w-6xl mx-auto px-4 py-5 flex items-center gap-1">
+            <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 256 256">
+                <path fill="currentColor"
+                    d="M128 28a100 100 0 1 0 100 100A100.11 100.11 0 0 0 128 28m0 192a92 92 0 1 1 92-92a92.1 92.1 0 0 1-92 92m35.2-65.59a44 44 0 1 1 0-52.82a4 4 0 0 1-6.4 4.81a36 36 0 1 0 0 43.2a4 4 0 0 1 6.4 4.81" />
+            </svg>
+            <p class="capitalize text-sm">2024 my online store</p>
+        </div>
+    </div>
+</body>
+
+</html>

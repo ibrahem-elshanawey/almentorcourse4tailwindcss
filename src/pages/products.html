@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../../dist/css/tailwind.css">
+    <title>E-commerce Website - Products</title>
+</head>
+
+<body class="font-roboto">
+    <!-- header  -->
+    <div class="flex items-center justify-between px-4 py-6 max-w-6xl mx-auto">
+        <p class="text-sm capitalize font-medium">my online store</p>
+        <div class="flex items-center gap-4">
+            <a href="#" class="flex items-center gap-1">
+                <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 256 256">
+                    <path fill="currentColor"
+                        d="M178 40c-20.65 0-38.73 8.88-50 23.89C116.73 48.88 98.65 40 78 40a62.07 62.07 0 0 0-62 62c0 70 103.79 126.66 108.21 129a8 8 0 0 0 7.58 0C136.21 228.66 240 172 240 102a62.07 62.07 0 0 0-62-62m-50 174.8c-18.26-10.64-96-59.11-96-112.8a46.06 46.06 0 0 1 46-46c19.45 0 35.78 10.36 42.6 27a8 8 0 0 0 14.8 0c6.82-16.67 23.15-27 42.6-27a46.06 46.06 0 0 1 46 46c0 53.61-77.76 102.15-96 112.8" />
+                </svg>
+                <span class="text-sm font-medium">3</span>
+            </a>
+            <a href="#" class="flex items-center gap-1">
+                <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24">
+                    <g fill="none" stroke="currentColor" stroke-width="1.5">
+                        <path
+                            d="M3.742 20.555C4.942 22 7.174 22 11.64 22h.72c4.466 0 6.699 0 7.899-1.445m-16.517 0c-1.2-1.446-.788-3.64.035-8.03c.585-3.12.877-4.681 1.988-5.603M3.742 20.555Zm16.517 0c1.2-1.446.788-3.64-.035-8.03c-.585-3.12-.878-4.681-1.989-5.603m2.024 13.633ZM18.235 6.922C17.125 6 15.536 6 12.361 6h-.722c-3.175 0-4.763 0-5.874.922m12.47 0Zm-12.47 0Z" />
+                        <path stroke-linecap="round" d="M9 6V5a3 3 0 1 1 6 0v1" />
+                    </g>
+                </svg>
+                <span class="text-sm font-medium">2</span>
+            </a>
+        </div>
+    </div>
+    <!-- breadcrumb -->
+    <div class="bg-black">
+        <ul class="flex items-center gap-3 py-2.5 px-4 max-w-6xl mx-auto">
+            <li><a href="#" class="text-sm font-medium capitalize text-white">home</a></li>
+            <li><span class="text-sm font-medium  text-white">/</span></li>
+            <li><a href="./products.html" class="text-sm font-medium capitalize text-white">shoes</a></li>
+        </ul>
+    </div>
+    <!-- hero  -->
+    <div class="max-w-6xl mx-auto px-4 py-16">
+        <p class="text-4xl font-bold text-center capitalize">We are one click away</p>
+        <p class="text-center  leading-7 mt-4 max-w-md mx-auto">Lorem ipsum, dolor sit amet consectetur adipisicing
+            elit. Sint magni ratione debitis porro soluta nemo? Fuga
+            soluta </p>
+    </div>
+    <!-- bordered-wraper  -->
+    <div class="border-t border-neutral-300">
+        <!-- products wraper  -->
+        <div class=" overflow-x-hidden  max-w-6xl mx-auto sm:px-4">
+            <!-- products grid  -->
+            <div class="grid grid-cols-2 border-l border-neutral-300 -mx-px sm:mx-0 md:grid-cols-3">
+                <!-- single product -->
+                <div
+                    class="px-4 pt-4 pb-6 border-r border-b border-neutral-300 sm:px-6 sm:pt-6 sm:pb-8 md:px-8 md:pt-8 md:pb-10">
+                    <div class="relative">
+                        <button
+                            class="w-9 h-9 flex items-center justify-center rounded-full bg-white absolute right-2 top-2">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 256 256">
+                                <path fill="currentColor"
+                                    d="M178 40c-20.65 0-38.73 8.88-50 23.89C116.73 48.88 98.65 40 78 40a62.07 62.07 0 0 0-62 62c0 70 103.79 126.66 108.21 129a8 8 0 0 0 7.58 0C136.21 228.66 240 172 240 102a62.07 62.07 0 0 0-62-62m-50 174.8c-18.26-10.64-96-59.11-96-112.8a46.06 46.06 0 0 1 46-46c19.45 0 35.78 10.36 42.6 27a8 8 0 0 0 14.8 0c6.82-16.67 23.15-27 42.6-27a46.06 46.06 0 0 1 46 46c0 53.61-77.76 102.15-96 112.8" />
+                            </svg>
+                        </button>
+                        <a href="./product-view.html">
+                            <img src="../../dist/img/view-white-ice-skates-with-cherries.jpg" alt="" class="rounded-sm">
+                        </a>
+                    </div>
+                    <div class="mt-7">
+                        <span
+                            class="uppercase text-xs font-medium text-green-700 bg-green-100 rounded-sm py-0.5 px-2 mb-2.5 inline-block">new</span>
+                        <a href="#" class="capitalize block">men's causal shoe</a>
+                        <p class="mt-2.5 font-medium">$50</p>
+                        <div class="flex gap-4 mt-2.5">
+                            <a href="#" class="w-5 h-5 rounded-full bg-white border border-neutral-300"></a>
+                            <a href="#" class="w-5 h-5 rounded-full bg-red-500 border border-neutral-300"></a>
+                            <a href="#" class="w-5 h-5 rounded-full bg-black border border-neutral-300"></a>
+                        </div>
+                    </div>
+                </div>
+                <!-- single product -->
+                <div
+                    class="px-4 pt-4 pb-6 border-r border-b border-neutral-300 sm:px-6 sm:pt-6 sm:pb-8 md:px-8 md:pt-8 md:pb-10">
+                    <div class="relative">
+                        <button
+                            class="w-9 h-9 flex items-center justify-center rounded-full bg-white absolute right-2 top-2">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 256 256">
+                                <path fill="currentColor"
+                                    d="M178 40c-20.65 0-38.73 8.88-50 23.89C116.73 48.88 98.65 40 78 40a62.07 62.07 0 0 0-62 62c0 70 103.79 126.66 108.21 129a8 8 0 0 0 7.58 0C136.21 228.66 240 172 240 102a62.07 62.07 0 0 0-62-62m-50 174.8c-18.26-10.64-96-59.11-96-112.8a46.06 46.06 0 0 1 46-46c19.45 0 35.78 10.36 42.6 27a8 8 0 0 0 14.8 0c6.82-16.67 23.15-27 42.6-27a46.06 46.06 0 0 1 46 46c0 53.61-77.76 102.15-96 112.8" />
+                            </svg>
+                        </button>
+                        <a href="./product-view.html">
+                            <img src="../../dist/img/view-white-ice-skates-with-cherries.jpg" alt="" class="rounded-sm">
+                        </a>
+                    </div>
+                    <div class="mt-7">
+                        <span
+                            class="uppercase text-xs font-medium text-green-700 bg-green-100 rounded-sm py-0.5 px-2 mb-2.5 inline-block">new</span>
+                        <a href="#" class="capitalize block">men's causal shoe</a>
+                        <p class="mt-2.5 font-medium">$50</p>
+                        <div class="flex gap-4 mt-2.5">
+                            <a href="#" class="w-5 h-5 rounded-full bg-white border border-neutral-300"></a>
+                            <a href="#" class="w-5 h-5 rounded-full bg-red-500 border border-neutral-300"></a>
+                            <a href="#" class="w-5 h-5 rounded-full bg-black border border-neutral-300"></a>
+                        </div>
+                    </div>
+                </div>
+                <!-- single product -->
+                <div
+                    class="px-4 pt-4 pb-6 border-r border-b border-neutral-300 sm:px-6 sm:pt-6 sm:pb-8 md:px-8 md:pt-8 md:pb-10">
+                    <div class="relative">
+                        <button
+                            class="w-9 h-9 flex items-center justify-center rounded-full bg-white absolute right-2 top-2">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 256 256">
+                                <path fill="currentColor"
+                                    d="M178 40c-20.65 0-38.73 8.88-50 23.89C116.73 48.88 98.65 40 78 40a62.07 62.07 0 0 0-62 62c0 70 103.79 126.66 108.21 129a8 8 0 0 0 7.58 0C136.21 228.66 240 172 240 102a62.07 62.07 0 0 0-62-62m-50 174.8c-18.26-10.64-96-59.11-96-112.8a46.06 46.06 0 0 1 46-46c19.45 0 35.78 10.36 42.6 27a8 8 0 0 0 14.8 0c6.82-16.67 23.15-27 42.6-27a46.06 46.06 0 0 1 46 46c0 53.61-77.76 102.15-96 112.8" />
+                            </svg>
+                        </button>
+                        <a href="./product-view.html">
+                            <img src="../../dist/img/view-white-ice-skates-with-cherries.jpg" alt="" class="rounded-sm">
+                        </a>
+                    </div>
+                    <div class="mt-7">
+                        <span
+                            class="uppercase text-xs font-medium text-green-700 bg-green-100 rounded-sm py-0.5 px-2 mb-2.5 inline-block">new</span>
+                        <a href="#" class="capitalize block">men's causal shoe</a>
+                        <p class="mt-2.5 font-medium">$50</p>
+                        <div class="flex gap-4 mt-2.5">
+                            <a href="#" class="w-5 h-5 rounded-full bg-white border border-neutral-300"></a>
+                            <a href="#" class="w-5 h-5 rounded-full bg-red-500 border border-neutral-300"></a>
+                            <a href="#" class="w-5 h-5 rounded-full bg-black border border-neutral-300"></a>
+                        </div>
+                    </div>
+                </div>
+                <!-- single product -->
+                <div
+                    class="px-4 pt-4 pb-6 border-r border-b border-neutral-300 sm:px-6 sm:pt-6 sm:pb-8 md:px-8 md:pt-8 md:pb-10">
+                    <div class="relative">
+                        <button
+                            class="w-9 h-9 flex items-center justify-center rounded-full bg-white absolute right-2 top-2">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 256 256">
+                                <path fill="currentColor"
+                                    d="M178 40c-20.65 0-38.73 8.88-50 23.89C116.73 48.88 98.65 40 78 40a62.07 62.07 0 0 0-62 62c0 70 103.79 126.66 108.21 129a8 8 0 0 0 7.58 0C136.21 228.66 240 172 240 102a62.07 62.07 0 0 0-62-62m-50 174.8c-18.26-10.64-96-59.11-96-112.8a46.06 46.06 0 0 1 46-46c19.45 0 35.78 10.36 42.6 27a8 8 0 0 0 14.8 0c6.82-16.67 23.15-27 42.6-27a46.06 46.06 0 0 1 46 46c0 53.61-77.76 102.15-96 112.8" />
+                            </svg>
+                        </button>
+                        <a href="./product-view.html">
+                            <img src="../../dist/img/view-white-ice-skates-with-cherries.jpg" alt="" class="rounded-sm">
+                        </a>
+                    </div>
+                    <div class="mt-7">
+                        <span
+                            class="uppercase text-xs font-medium text-green-700 bg-green-100 rounded-sm py-0.5 px-2 mb-2.5 inline-block">new</span>
+                        <a href="#" class="capitalize block">men's causal shoe</a>
+                        <p class="mt-2.5 font-medium">$50</p>
+                        <div class="flex gap-4 mt-2.5">
+                            <a href="#" class="w-5 h-5 rounded-full bg-white border border-neutral-300"></a>
+                            <a href="#" class="w-5 h-5 rounded-full bg-red-500 border border-neutral-300"></a>
+                            <a href="#" class="w-5 h-5 rounded-full bg-black border border-neutral-300"></a>
+                        </div>
+                    </div>
+                </div>
+                <!-- single product -->
+                <div
+                    class="px-4 pt-4 pb-6 border-r border-b border-neutral-300 sm:px-6 sm:pt-6 sm:pb-8 md:px-8 md:pt-8 md:pb-10">
+                    <div class="relative">
+                        <button
+                            class="w-9 h-9 flex items-center justify-center rounded-full bg-white absolute right-2 top-2">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 256 256">
+                                <path fill="currentColor"
+                                    d="M178 40c-20.65 0-38.73 8.88-50 23.89C116.73 48.88 98.65 40 78 40a62.07 62.07 0 0 0-62 62c0 70 103.79 126.66 108.21 129a8 8 0 0 0 7.58 0C136.21 228.66 240 172 240 102a62.07 62.07 0 0 0-62-62m-50 174.8c-18.26-10.64-96-59.11-96-112.8a46.06 46.06 0 0 1 46-46c19.45 0 35.78 10.36 42.6 27a8 8 0 0 0 14.8 0c6.82-16.67 23.15-27 42.6-27a46.06 46.06 0 0 1 46 46c0 53.61-77.76 102.15-96 112.8" />
+                            </svg>
+                        </button>
+                        <a href="./product-view.html">
+                            <img src="../../dist/img/view-white-ice-skates-with-cherries.jpg" alt="" class="rounded-sm">
+                        </a>
+                    </div>
+                    <div class="mt-7">
+                        <span
+                            class="uppercase text-xs font-medium text-green-700 bg-green-100 rounded-sm py-0.5 px-2 mb-2.5 inline-block">new</span>
+                        <a href="#" class="capitalize block">men's causal shoe</a>
+                        <p class="mt-2.5 font-medium">$50</p>
+                        <div class="flex gap-4 mt-2.5">
+                            <a href="#" class="w-5 h-5 rounded-full bg-white border border-neutral-300"></a>
+                            <a href="#" class="w-5 h-5 rounded-full bg-red-500 border border-neutral-300"></a>
+                            <a href="#" class="w-5 h-5 rounded-full bg-black border border-neutral-300"></a>
+                        </div>
+                    </div>
+                </div>
+                <!-- single product -->
+                <div
+                    class="px-4 pt-4 pb-6 border-r border-b border-neutral-300 sm:px-6 sm:pt-6 sm:pb-8 md:px-8 md:pt-8 md:pb-10">
+                    <div class="relative">
+                        <button
+                            class="w-9 h-9 flex items-center justify-center rounded-full bg-white absolute right-2 top-2">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 256 256">
+                                <path fill="currentColor"
+                                    d="M178 40c-20.65 0-38.73 8.88-50 23.89C116.73 48.88 98.65 40 78 40a62.07 62.07 0 0 0-62 62c0 70 103.79 126.66 108.21 129a8 8 0 0 0 7.58 0C136.21 228.66 240 172 240 102a62.07 62.07 0 0 0-62-62m-50 174.8c-18.26-10.64-96-59.11-96-112.8a46.06 46.06 0 0 1 46-46c19.45 0 35.78 10.36 42.6 27a8 8 0 0 0 14.8 0c6.82-16.67 23.15-27 42.6-27a46.06 46.06 0 0 1 46 46c0 53.61-77.76 102.15-96 112.8" />
+                            </svg>
+                        </button>
+                        <a href="./product-view.html">
+                            <img src="../../dist/img/view-white-ice-skates-with-cherries.jpg" alt="" class="rounded-sm">
+                        </a>
+                    </div>
+                    <div class="mt-7">
+                        <span
+                            class="uppercase text-xs font-medium text-green-700 bg-green-100 rounded-sm py-0.5 px-2 mb-2.5 inline-block">new</span>
+                        <a href="#" class="capitalize block">men's causal shoe</a>
+                        <p class="mt-2.5 font-medium">$50</p>
+                        <div class="flex gap-4 mt-2.5">
+                            <a href="#" class="w-5 h-5 rounded-full bg-white border border-neutral-300"></a>
+                            <a href="#" class="w-5 h-5 rounded-full bg-red-500 border border-neutral-300"></a>
+                            <a href="#" class="w-5 h-5 rounded-full bg-black border border-neutral-300"></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- border wraper  -->
+    <div class="border-t border-neutral-300 -mt-px">
+        <div class="max-w-6xl mx-auto px-4 py-5 flex items-center gap-1">
+            <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 256 256">
+                <path fill="currentColor"
+                    d="M128 28a100 100 0 1 0 100 100A100.11 100.11 0 0 0 128 28m0 192a92 92 0 1 1 92-92a92.1 92.1 0 0 1-92 92m35.2-65.59a44 44 0 1 1 0-52.82a4 4 0 0 1-6.4 4.81a36 36 0 1 0 0 43.2a4 4 0 0 1 6.4 4.81" />
+            </svg>
+            <p class="capitalize text-sm">2024 my online store</p>
+        </div>
+    </div>
+
+
+</body>
+
+</html>
